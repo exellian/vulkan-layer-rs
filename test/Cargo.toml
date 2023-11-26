@@ -1,0 +1,14 @@
+[package]
+name = "test"
+version = "0.1.0"
+edition = "2021"
+# build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wsi = { path = "../wsi" }
+ash = { version = "0.37", features = ["linked", "debug"] }
+libc = "0.2"
+log = "0.4.20"
+
